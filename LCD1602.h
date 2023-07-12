@@ -18,7 +18,7 @@
 /*****  GPIOB5    ******/
 #define  LCD1602_DATA						Sicheng()
 
-/* 王枨特辑 */
+/* 枨特辑 */
 #define  Si_rightdata						HAL_GPIO_WritePin(GPIOB,GPIO_PIN_14,GPIO_PIN_SET);	\
 																LCD_Delay_us(20);																		\
 																HAL_GPIO_WritePin(GPIOB,GPIO_PIN_14,GPIO_PIN_RESET);\
